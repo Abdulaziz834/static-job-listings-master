@@ -16,7 +16,7 @@
 
     /* Box Shadows */
 
-    --bs-job-bg: 0 5px 10px 2px hsla(180, 29%, 50%, 20%);
+    --bs-job-bg: 0 8px 20px -2px hsla(180, 29%, 50%, 20%);
 }
 
 
@@ -51,3 +51,4 @@ ul:not([role='list']),
 ol:not([role='list']) {
     list-style: none;
 }
+

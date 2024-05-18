@@ -21,22 +21,29 @@ header > .header-mask-image {
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 h5, p, span {
-    font-size: 17px;
+    font-size: 18px;
 }
 
 small, .badge {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
 }
 
+.more-info > li {
+    font-size: 18px;
+}
+
 .badge {
+    display: grid;
+    place-items: center;
     text-transform: uppercase;
-    padding: 4px 8px;
+    padding: 5px 8px;
     border-radius: 100vw;
+    letter-spacing: .5px;
 }
 
 .badge.primary {
@@ -76,6 +83,7 @@ small, .badge {
 
 .container.search-bar .btn.btn-clear {
     color: var(--clr-neutral-900);
+    font-weight: 700;
     background-image: linear-gradient(var(--clr-primary), var(--clr-primary));
     background-repeat: no-repeat;
     background-position: left bottom;
@@ -89,7 +97,7 @@ small, .badge {
 }
 
 .container.search-bar .btn-group > .btn.btn-primary {
-    padding: 8px;
+    padding: 9px;
     background-color: var(--clr-neutral-150);
     color: var(--clr-primary);
     border-radius: .25rem 0 0 .25rem;
@@ -114,14 +122,14 @@ small, .badge {
     gap: 1.5rem;
     margin-inline: clamp(1rem, (3vw * 5 - 2rem), 165px);
     margin-bottom: 7.5rem;
-    margin-top: 4.6875rem;
+    margin-top: 2.5rem;
 }
 
 .job {
     position: relative;
     padding: 2rem 2.5rem;
     display: flex;
-    gap: 1.25rem;
+    gap: 1.5rem;
     background-color: var(--clr-white);
     border-radius: .5rem;
     overflow: hidden;
@@ -181,7 +189,7 @@ small, .badge {
 .job .more-info > li:not(:first-child)::before {
     position: absolute;
     content: "";
-    width: 4px;
+    width: 2px;
     aspect-ratio: 1;
     background-color: currentColor;
     inset: 50% auto auto -16px;
@@ -198,7 +206,7 @@ small, .badge {
 }
 
 .job .tags button.btn.tag {
-    padding: 8px;
+    padding: 9px;
     background-color: var(--clr-neutral-150);
     color: var(--clr-primary);
     border-radius: .25rem;
