@@ -21,15 +21,16 @@ header > .header-mask-image {
 }
 
 h4 {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 h5, p, span {
-    font-size: 15px;
+    font-size: 17px;
 }
 
 small, .badge {
     font-size: 12px;
+    font-weight: 700;
 }
 
 .badge {
@@ -59,6 +60,7 @@ small, .badge {
     z-index: 100;
     padding: 1.25rem 2.5rem;
     border-radius: .25rem;
+    box-shadow: var(--bs-job-bg);
 }
 
 .container.search-bar > ul.selected-tags {
@@ -69,7 +71,7 @@ small, .badge {
 
 .container.search-bar .btn-group {
     display: flex;
-    
+
 }
 
 .container.search-bar .btn.btn-clear {
@@ -123,6 +125,7 @@ small, .badge {
     background-color: var(--clr-white);
     border-radius: .5rem;
     overflow: hidden;
+    box-shadow: var(--bs-job-bg);
 }
 
 .job.featured::before {

@@ -13,6 +13,10 @@
     --clr-neutral-900: var(--very-dark-grayish-cyan);
     --clr-neutral-700: var(--dark-grayish-cyan);
     --clr-white: #fff;
+
+    /* Box Shadows */
+
+    --bs-job-bg: 0 5px 10px 2px hsla(180, 29%, 50%, 20%);
 }
 
 
