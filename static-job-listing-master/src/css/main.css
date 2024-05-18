@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+:root {
+    --desaturated-dark-cyan: hsl(180, 29%, 50%);
+    --light-grayish-cyan-100: hsl(180, 52%, 96%);
+    --light-grayish-cyan-150: hsl(180, 31%, 95%);
+    --dark-grayish-cyan: hsl(180, 8%, 52%);
+    --very-dark-grayish-cyan: hsl(180, 14%, 20%);
+
+    --clr-primary: var(--desaturated-dark-cyan);
+    --clr-neutral-100: var(--light-grayish-cyan-100);
+    --clr-neutral-150: var(--light-grayish-cyan-150);
+    --clr-neutral-900: var(--very-dark-grayish-cyan);
+    --clr-neutral-700: var(--dark-grayish-cyan);
+    --clr-white: #fff;
+}
+
+
+* {
+    font: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: "League Spartan", "Open Sans", system-ui, -apple-system, sans-serif;
+}
+
+button {
+    background-color: transparent;
+    outline: transparent;
+    border: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+
+img, picture, object {
+    display: block;
+}
+
+object {
+    pointer-events: none;
+}
+
+ul:not([role='list']),
+ol:not([role='list']) {
+    list-style: none;
+}
